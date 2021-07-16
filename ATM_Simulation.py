@@ -2,8 +2,6 @@ from os import system
 from datetime import date
 from time import sleep
 import random
-
-
 class Account:
     def __init__(self, idNum, balance, dateCreated):
         self.id = idNum
